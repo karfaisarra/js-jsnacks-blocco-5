@@ -49,7 +49,7 @@ const zucchine = [
 let risultato=0;
 zucchine.forEach(zucchina =>{
     const peso = zucchina.peso
-    console.log('il peso delle zucchina:', peso, 'g');
+    console.log('il peso della zucchina:', peso, 'g');
     risultato += peso / 1000 ;
 })
-console.log('il peso delle zucchina:', risultato,'kg');
+console.log('il peso delle zucchine:', risultato,'kg');
